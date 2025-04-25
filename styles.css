@@ -1,0 +1,230 @@
+body {
+    font-family: "Apple Color Emoji", -apple-system, BlinkMacSystemFont, "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Android Emoji", sans-serif;
+    font-size: 12px;
+    overflow-x: hidden;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-width: 1200px;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+.container {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover {
+    color: #1DC48C;
+}
+
+.btn-success {
+    background-color: #1DC48C;
+    border: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.btn-success:hover {
+    background-color: #1ab380;
+    transform: translateY(-2px);
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+h2, h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.text-success {
+    color: #1DC48C !important;
+}
+
+main {
+    min-height: calc(100vh - 180px);
+    padding-top: 60px;
+}
+
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content-left {
+    width: 65%;
+    padding-top: 40px;
+}
+
+.content-right {
+    width: 50%;
+    position: relative;
+    margin-top: -70px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    margin-top: -0px;
+}
+
+footer {
+    border-top: 1px solid #eee;
+    min-width: 1200px;
+    width: 100%;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 2rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 0.5rem !important;
+}
+
+.content-left div {
+    margin-bottom: 0.8rem;
+}
+
+.emoji {
+    font-family: "Apple Color Emoji" !important;
+    font-style: normal;
+}
+
+
+.alert-success {
+    background-color: rgba(29, 196, 140, 0.1);
+    border: 1px solid rgba(29, 196, 140, 0.2);
+    color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.contact-info {
+    margin-top: 2rem;
+}
+
+.contact-info a:hover {
+    text-decoration: underline !important;
+}
+
+.content-right1 {
+    width: 60%;
+    position: relative;
+    margin-top: 170px;
+    padding-left: 50px;
+}
+
+.content-right1 .hero-image {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+.contact-container {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-top: 40px;
+}
+
+.contact-info p {
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.social-media {
+    margin: 2rem 0;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+}
+
+.contact-form-container {
+    background-color: rgba(236, 248, 244, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.form-control {
+    border: 1px solid #e0e0e0;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: #1DC48C;
+    box-shadow: 0 0 0 0.1rem rgba(29, 196, 140, 0.25);
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button {
+    padding: 0.5rem 2rem;
+}
+
+/* Ajuste responsivo */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px;
+    }
+}
+
+.position-relative {
+    display: inline-block;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    object-fit: cover;
+    border: 3px solid #1DC48C;
+}
+
+.btn-success.position-absolute {
+    padding: 5px 8px;
+    border-radius: 50%;
+    margin: 0 0 10px 10px;
+} 
